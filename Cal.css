@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 315px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  background-color: rgb(8, 83, 91);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  padding-bottom: 5px;
+}
+#number {
+  text-align: right;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  width: 291.5px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  padding: 2px;
+}
+.A {
+  padding: 5px 10px;
+  width: 75px;
+  margin: 0.5px;
+  border: none;
+  background-color:rgba(240, 248, 255, 0.958);
+  font-size: 30px;
+}
+.eq {
+  grid-row: span 4;
+  background-color: rgb(32, 119, 172);
+}
+.add {
+  background-color: orange;
+}
+.sub {
+  background-color: rgb(134, 201, 33);
+}
+.Mul {
+  background-color: rgb(162, 105, 215);
+}
+.divi {
+  background-color: rgb(237, 171, 16);
+}
